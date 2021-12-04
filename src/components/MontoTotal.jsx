@@ -16,7 +16,6 @@ export default class DynamicBounds extends React.Component {
     };
   }
   onInputChange = e => {
-    console.log(e.target.value);
     this.setState({
       value: e.target.value,
     });
